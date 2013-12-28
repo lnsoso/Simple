@@ -1,36 +1,24 @@
-## Theme
-
-I designed this simple minimalistic theme keeping one thing in mind that the content should shine more than anything else.
-Also, i optimized it a bit using Google pagespeed module so it should be very fast on all platforms.
-
-##Usage:
-
-First, clone this repo to your own github account and rename the repo as <githubusernmae>.github.com
-
-In-order to use the theme, go to `.config.yml`  and replace all of the fields with your own content:
-
-```yaml
-title:            <your name>
+title:             Kumar
 description:      My weblog
-logo:             <yourlogo>
+logo:             .jpg
 disqus_shortname:
 #Comment out url when working locally to resolve base urls correctly
 #url:              
 
 # Owner/author information
 owner:
-  name:           <your name>
-  avatar:         <your avatar>
+  name:           
+  avatar:        
   email:          
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:       
   github:         
   stackexchange:  
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:  
+  google_plus: 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics:  
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -43,10 +31,10 @@ links:
   - title: Blog
     url: /articles
   - title: Code
-    url: http://github.com/<your github>
+    url: 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    India/Mumbai
+timezone:    
 future:      true
 pygments:    true
 markdown:    kramdown
@@ -70,17 +58,3 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec"]
-```
-
-Once done setting up the config.yml make sure you have the jekyll installed. Also, replace the content in _posts and add your own blog posts.
-
-
-You could check how the blog looks by doing 
-
-```bash
-$ jekyll serve
-```
-
-
-
-
