@@ -2,15 +2,14 @@
     <header class="wrapper clearfix">
       <a href="/"><h1 class="title">{{ site.title }}</h1></a>
         <nav>
-            <ul> 
-                <li><a href="/about"><i class="fa fa-user"></i> About</a></li>
+            <!--<ul> -->
+                <!--<li><a href="/about"><i class="fa fa-user"></i> About</a></li>-->
                 
-                <li><a href="/articles"><i class="fa fa-pencil"></i> Blog</a></li>
+                <!--<li><a href="/articles"><i class="fa fa-pencil"></i> Blog</a></li>-->
                 
-                <li><a href="http://github.com/{{site.owner.github}}"><i class="fa fa-github-alt"></i> Code</a></li>
+                <!--<li><a href="http://github.com/{{site.owner.github}}"><i class="fa fa-github-alt"></i> Code</a></li>-->
                 
-            </ul>
-            <!--
+            <!--</ul>-->
             <ul>
                 {% for link in site.links %}
                         <li>
@@ -24,8 +23,7 @@
                 <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
                 {% if site.search %}<li class="dosearch"><i class="icon-search"></i> Search</li>{% endif %}
             </ul>
-            -->
-  
+        
         </nav>
     </header>
 </div
