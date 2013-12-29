@@ -1,18 +1,18 @@
-title:             Kumar
-description:      My weblog
-logo:             .jpg
+title:            My Hacks
+description:      blog about my hacks
+logo:             user.jpg
 disqus_shortname:
 #Comment out url when working locally to resolve base urls correctly
 url: http://vinitkumar.me/Simple              
 
 # Owner/author information
 owner:
-  name:           
+  name: changer          
   avatar:        
   email:          
   # Social networking links used in footer. Update and remove as you like.
   twitter:       
-  github:         
+  github: changer        
   stackexchange:  
   # For Google Authorship https://plus.google.com/authorship
   google_plus: 
