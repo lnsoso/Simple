@@ -428,3 +428,7 @@ nav a:hover {
         page-break-after: avoid;
     }
 }
+
+.code {
+  font-size: 14px;
+}
