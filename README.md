@@ -1,5 +1,7 @@
 ## Theme
 
+![Simple](https://imgflip.com/i/5r5tp)
+
 I designed this simple minimalistic theme keeping one thing in mind that the content should shine more than anything else.
 Also, i optimized it a bit using Google pagespeed module so it should be very fast on all platforms.
 
