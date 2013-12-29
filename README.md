@@ -1,4 +1,4 @@
-## Theme
+## Simple Theme
 
 ![Simple](http://i.imgflip.com/5r5tp.gif)
 
