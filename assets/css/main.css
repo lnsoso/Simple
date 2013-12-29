@@ -429,6 +429,7 @@ nav a:hover {
     }
 }
 
-.code {
+code, kbd, pre, samp {
+  font-family: monospace,serif;
   font-size: 14px;
 }
