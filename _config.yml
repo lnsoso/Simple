@@ -3,7 +3,7 @@ description:      My weblog
 logo:             .jpg
 disqus_shortname:
 #Comment out url when working locally to resolve base urls correctly
-#url:              
+url: http://vinitkumar.me/Simple              
 
 # Owner/author information
 owner:
@@ -37,7 +37,7 @@ links:
 timezone:    
 future:      true
 pygments:    true
-markdown:    kramdown
+markdown:    redcarpet
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
@@ -56,5 +56,6 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
+activate: syntax
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec"]
