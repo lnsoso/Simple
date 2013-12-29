@@ -1,15 +1,19 @@
 <div class="header-container">
     <header class="wrapper clearfix">
-      <a href="/"><h1 class="title">{{ site.title }}'s Weblog</h1></a>
-        <nav>
-            <ul> 
-                <li><a href="/about"><i class="fa fa-user"></i> About</a></li>
-                
-                <li><a href="/articles"><i class="fa fa-pencil"></i> Blog</a></li>
-                
-                <li><a href="http://github.com/vinitkumar"><i class="fa fa-github-alt"></i> Code</a></li>
-                
+      <a href="{{ site.url }}"><h1 class="title">{{ site.title }}</h1></a>
+        <nav> 
+            <ul>
+                {% for link in site.links %}
+                        <li>
+                                {% if link.external %}
+                                        <a href="{{ link.url }}">{{ link.title }}</a>
+                                {% else %}
+                                        <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                                {% endif %} 
+                        </li>
+                {% endfor %}
             </ul>
+        
         </nav>
     </header>
 </div
