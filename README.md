@@ -2,8 +2,10 @@
 
 ![Simple](http://i.imgflip.com/5r5tp.gif)
 
-I designed this simple minimalistic theme keeping one thing in mind that the content should shine more than anything else.
-Also, i optimized it a bit using Google pagespeed module so it should be very fast on all platforms.
+I designed this simple and minimalistic theme keeping just one thing in mind. 
+> The content should be the king.
+
+Also, I did some sweet modifications as Google pagespeed analytics and suggestion. Along with that full care of SEO done with all required meta tags.
 
 ##Usage:
 
