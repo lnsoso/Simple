@@ -102,3 +102,7 @@ create an [issue here](https://github.com/vinitkumar/Simple/issues)
 
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vinitkumar/simple/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
