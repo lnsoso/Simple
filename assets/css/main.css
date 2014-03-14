@@ -17,15 +17,15 @@ body {
 }
 
 .grey {
-	background: url('Simple/images/greyzz_@2X.png');
+	background: url('/Simple/images/greyzz_@2X.png');
 }
 
 .geometry {
-	background: url('Simple/images/geometry.png');
+	background: url('/Simple/images/geometry.png');
 }
 
 .notebook {
-	background: url('Simple/images/notebook.png');
+	background: url('/Simple/images/notebook.png');
 }
 
 ::-moz-selection {
