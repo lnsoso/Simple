@@ -3,7 +3,7 @@ description:      blog about my hacks
 logo:             user.jpg
 disqus_shortname:
 #Comment out url when working locally to resolve base urls correctly
-#url: http://vinitkumar.me/Simple              
+url: http://vinitkumar.me/Simple              
 
 coderwall_user: vinitcool76
 
