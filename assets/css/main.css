@@ -17,15 +17,15 @@ body {
 }
 
 .grey {
-	background: url('/images/greyzz_@2X.png');
+	background: url('Simple/images/greyzz_@2X.png');
 }
 
 .geometry {
-	background: url('/images/geometry.png');
+	background: url('Simple/images/geometry.png');
 }
 
 .notebook {
-	background: url('/images/notebook.png');
+	background: url('Simple/images/notebook.png');
 }
 
 ::-moz-selection {
@@ -117,7 +117,7 @@ body {
 		font-family: 'Helvetica', Arial;
 }
 .main aside {
-    background: url('/images/geometry.png');
+    background: url('/Simple/images/geometry.png');
 }
 
 .title {
