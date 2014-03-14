@@ -7,7 +7,7 @@
 {% include head.html %}
 </head>
 
-<body>
+<body class="geometry">
 {% include header.html %}
 
   <div class="main-container">
@@ -18,8 +18,9 @@
           </header>  
             {{ content }}
         </article>
-        <aside class="sidebar">
+        <aside class="sidebar geometry">
           <img class="site-logo" src="{{ site.url }}/images/{{site.logo}}" height="200" width="200">
+					{% include coderwall.html %}
           <div class="social-links">
             <a href="http://twitter.com/{{site.owner.twitter}}"><i class="fa fa-twitter"></i> @{{site.owner.twitter}}</a>
           </div>

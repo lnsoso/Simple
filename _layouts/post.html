@@ -7,7 +7,7 @@
 {% include head.html %}
 </head>
 
-<body>
+<body class="geometry">
 {% include header.html %}
 
   <div class="main-container">
@@ -18,10 +18,10 @@
 
       <nav class="pagination" role="navigation">
         {% if page.previous %}
-          <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}"><i class="fa fa-arrow-circle-o-left fa-5x"></i></a>
+          <a href="{{ site.url }}{{ page.previous.url }}" class="btn geometry" title="{{ page.previous.title }}"><i class="fa fa-arrow-circle-o-left fa-5x"></i></a>
         {% endif %}
         {% if page.next %}
-          <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}"><i class="fa fa-arrow-circle-o-right fa-5x"></i></a>
+          <a href="{{ site.url }}{{ page.next.url }}" class="btn geometry" title="{{ page.next.title }}"><i class="fa fa-arrow-circle-o-right fa-5x"></i></a>
         {% endif %}
       </nav><!-- /.pagination -->
    

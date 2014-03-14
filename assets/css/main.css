@@ -16,6 +16,18 @@ body {
     background: #ffffff;
 }
 
+.grey {
+	background: url('/images/greyzz_@2X.png');
+}
+
+.geometry {
+	background: url('/images/geometry.png');
+}
+
+.notebook {
+	background: url('/images/notebook.png');
+}
+
 ::-moz-selection {
     background: #ffffff;
     text-shadow: none;
@@ -91,6 +103,7 @@ body {
 
 .sidebar {
     text-align: center;
+		background: url('/images/');
 }
 
 .footer-container {
@@ -101,9 +114,10 @@ body {
     a {
         display: block;
     }
+		font-family: 'Helvetica', Arial;
 }
 .main aside {
-    background: #ffffff;
+    background: url('/images/geometry.png');
 }
 
 .title {
@@ -137,7 +151,7 @@ nav a {
 
     text-align: center;
     text-decoration: none;
-    font-weight: light;
+    font-weight: bolder;
 
     color: #000;
     background: #ffffff;
@@ -260,7 +274,7 @@ nav a:hover {
    ============ */
 
     .title {
-        font-weight: lighter;
+        font-weight: bold;
         float: left;
     }
 

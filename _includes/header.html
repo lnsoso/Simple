@@ -6,9 +6,9 @@
                 {% for link in site.links %}
                         <li>
                                 {% if link.external %}
-                                        <a href="{{ link.url }}">{{ link.title }}</a>
+                                        <a class="geometry" href="{{ link.url }}">{{ link.title }}</a>
                                 {% else %}
-                                        <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                                        <a class="geometry" href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
                                 {% endif %} 
                         </li>
                 {% endfor %}
