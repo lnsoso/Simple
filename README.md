@@ -1,38 +1,42 @@
-## Simple Theme
+## Simple - Jekyll theme for Hackers!
 
-![Simple](http://i.imgflip.com/5r5tp.gif)
+![Simple](http://recordit.co/fQxtoM.gif)
 
-I designed this simple minimalistic theme keeping one thing in mind that the content should shine more than anything else.
-Also, i optimized it a bit using Google pagespeed module so it should be very fast on all platforms.
+I designed this theme keeping just one thing in mind. 
+> The content should be the king.
+
+Some sweet modifications are done as per Google pagespeed analytics and suggestions.
 
 ##Usage:
 
-First, clone this repo to your own github account and rename the repo as <githubusernmae>.github.com
+First, clone this repo to your github account and rename the repo as <githubusernmae>.github.com
 
-In-order to use the theme, go to `.config.yml`  and replace all of the fields with your own content:
+In-order to use, go to `.config.yml`  and replace all of the fields with your content.
 
 ```yaml
-title:            My Hacks
-description:      blog about my hacks
+title:            Simple - Jekyll theme for Hackers!
+description:      clean and elegant theme for Jekyll.
 logo:             user.jpg
 disqus_shortname:
 #Comment out url when working locally to resolve base urls correctly
 url: http://vinitkumar.me/Simple              
 
+coderwall_user: vinitcool76
+
 # Owner/author information
 owner:
-  name: changer          
+  name: Vinit Kumar          
   avatar:        
-  email:          
+  email: vinit.kumar@changer.nl         
   # Social networking links used in footer. Update and remove as you like.
-  twitter:       
-  github: changer        
+  twitter: vinitkme      
+  github: vinitkumar        
   stackexchange:  
   # For Google Authorship https://plus.google.com/authorship
   google_plus: 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:  
+google_analytics: 
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -45,7 +49,7 @@ links:
   - title: Blog
     url: /articles
   - title: Code
-    url: 
+    url: http://github.com/vinitkumar
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    
@@ -72,13 +76,10 @@ kramdown:
 
 activate: syntax
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile",
-"Rakefile.rb", "tmp", "less", "*.sublime-project", "*" ]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec"]
+
 ```
-
-Once done setting up the config.yml make sure you have the jekyll installed. Also, replace the content in _posts and add your own blog posts.
-
-Usage:
+## Usage:
 
 To checkout the content locally, you must have jekyll installed on your
 system, if there is none installed it using:
@@ -86,11 +87,13 @@ system, if there is none installed it using:
 ```bash
 $ gem install jekyll
 ```
-And then do:
+
+Once done, test it with jekyll. Also, replace the content in _posts and add your own blog posts.
 
 ```bash
 $ jekyll server --watch
 ```
+
 Bugs & Issues:
 
 If you are curious about contributing or have found an issue, kindly
@@ -99,4 +102,8 @@ create an [issue here](https://github.com/vinitkumar/Simple/issues)
 
 
 
+
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vinitkumar/simple/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
